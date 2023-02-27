@@ -14,7 +14,7 @@ public class Estacion {
 	
 	@Override
 	public String toString() {
-		return "["+(dia) +"] [" + temperatura + "/" + humedad + "%]";
+		return "["+(dia) +"] [" + temperatura + "°C/" + humedad + "%]";
 	}
 	public int getTemperatura() {
 		return temperatura;
